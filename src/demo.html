@@ -14,14 +14,25 @@
         text-align: center;
         color: red;
       }
+
+      .hid {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+      }
+
+      #fire {
+        display: block;
+        margin: 0 auto;
+      }
     </style>
   </head>
   <body>
     <h1>🔥火焰🔥</h1>
-    <canvas id="canvas" width="1024" height="400"></canvas>
-    <canvas id="noise" width="1024" height="2048"></canvas>
+    <canvas id="fire" width="1024" height="400"></canvas>
+    <canvas id="noise" width="1024" height="2048" class="hid"></canvas>
 
-    <script src="./fire.js"></script>
+    <script type="module" src="./fire.js"></script>
   
   </body>
 </html>
