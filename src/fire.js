@@ -16,7 +16,7 @@ const noiseWidth = noiseDom.width;
 const noiseHeight = 1024;
 
 let noiseImage = new Image();
-noiseImage.src = "./assets/noise.png";
+noiseImage.src = "./src/assets/noise.png";
 noiseImage.crossOrigin = "Anonymous";
 console.log('noiseImage = ', noiseImage);
 
